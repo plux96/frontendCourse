@@ -1,0 +1,19 @@
+p {
+  color: red;
+}
+
+.info {
+  color: green;
+}
+
+#info1 {
+  color: blue;
+}
+
+[disabled] {
+  color: blueviolet;
+}
+
+* {
+  font-size: 24px;
+}

@@ -1,0 +1,20 @@
+.text-red {
+  color: red;
+}
+.text-bold {
+  font-weight: bold;
+}
+.text-green {
+  color: green;
+}
+
+h1.active {
+  background-color: red;
+  color: white;
+}
+h1 {
+  color: green;
+}
+a.active {
+  background-color: greenyellow;
+}

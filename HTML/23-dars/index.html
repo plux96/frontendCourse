@@ -1,0 +1,48 @@
+<!-- Forms 3-part-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms 2-part</title>
+  </head>
+  <body>
+    <form action="#" method="GET">
+      <label for="username">Username:</label>
+      <input type="text" name="username" id="username" /><br /><br />
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password" /><br /><br />
+      <label for="email">Emailingiz:</label>
+      <input type="email" name="email" id="email" /><br /><br />
+      <label for="sana">Tug'ilgan sana:</label>
+      <input type="date" name="sana" id="sana" /><br /><br />
+      <label for="student">Talabamisiz?</label>
+      <input type="checkbox" name="student" id="student" /><br /><br />
+      <hr />
+      <label for="erkak">Erkak</label>
+      <input type="radio" name="gender" id="gender" value="male" />
+      <label for="ayol">Ayol</label>
+      <input
+        type="radio"
+        name="gender"
+        id="gender"
+        value="female"
+      /><br /><br />
+      <label for="passport">Passport</label>
+      <input type="file" name="passport" id="passport" /> <br /><br />
+      <hr />
+      <label for="experience">Tajribangiz (yil)?</label>
+      <select name="experience" id="experience">
+        <option value="">Select Experience</option>
+        <option value="experience0">Tajribam yo'q</option>
+        <option value="experience1">Bir yildan kam</option>
+        <option value="experience2">Bir yildan ko'p</option></select
+      ><br /><br />
+      <label for="about">O'zingiz haqingizda:</label>
+      <textarea name="about" id="about" cols="30" rows="4"></textarea
+      ><br /><br />
+      <button type="submit">Login</button>
+    </form>
+  </body>
+</html>

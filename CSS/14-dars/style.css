@@ -1,0 +1,25 @@
+.box {
+  height: 200px;
+}
+.width-box {
+  width: 100px;
+}
+
+.paragraph {
+  max-height: 30px;
+  background-color: red;
+  margin-bottom: 100px;
+}
+.paragraph-1 {
+  min-height: 30px;
+  background-color: red;
+}
+
+.box1 {
+  background-color: red;
+  width: 1000px;
+}
+.box2 {
+  background-color: blue;
+  max-width: 1000px;
+}

@@ -1,0 +1,55 @@
+<!-- Audio , Video and Youtube-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio, Video, Youtube</title>
+    <style>
+      .audio {
+        text-align: center;
+        margin-top: 20px;
+        color: red;
+      }
+      .video {
+        text-align: center;
+        color: green;
+      }
+      .youtube {
+        text-align: center;
+        color: indigo;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Audio-->
+    <div class="audio">
+      <h1>Audio player</h1>
+      <audio controls>
+        <source src="13.01.mp3" type="audio/mp3" />
+        Sizning browseringiz audioni o'qiy olmaydi
+      </audio>
+    </div>
+    <hr />
+    <div class="video">
+      <h1>Video player</h1>
+      <video width="320px" height="320px" controls>
+        <source src="file_example_MP4_480_1_5MG.mp4" type="video/mp4" />
+        Sizning browseringiz videoni o'qiy olmaydi
+      </video>
+    </div>
+    <div class="youtube">
+      <h1>Youtube player</h1>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/FDvkEbLu_pM"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </body>
+</html>

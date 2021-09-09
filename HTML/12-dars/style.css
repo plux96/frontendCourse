@@ -1,0 +1,11 @@
+h1 {
+  color: green;
+  text-align: center;
+  font-weight: bold;
+}
+
+p {
+  color: hotpink;
+  opacity: 0.8;
+  text-align: center;
+}
